@@ -535,29 +535,17 @@ const weapons_schema = new Schema({
     }
 }, { versionKey: false });
 
-const Car_Assets = mongoose.model('car_assets', car_assets_schema);
-const Cars = mongoose.model('cars', car_schema);
-const Chapters = mongoose.model('chapters', chapter_schema);
-const Currrency = mongoose.model('currrency', currrency_schema);
-const Gems = mongoose.model('gems', gems_schema);
-const Levels = mongoose.model('levels', level_schema);
-const Owned_Cars = mongoose.model('owned_cars', owned_cars_schema);
-const Ranks = mongoose.model('ranks', rank_schema);
-const User_Progress = mongoose.model('user_progress', user_progress_schema);
-const Users = mongoose.model('users', user_schema);
-const Weapons = mongoose.model('weapons', weapons_schema);
-
 
 module.exports = {
-    Users,
-    Car_Assets,
-    Cars,
-    Chapters,
-    Currrency,
-    Levels,
-    Owned_Cars,
-    Ranks,
-    User_Progress,
-    Weapons,
-    Gems
+    car_assets_schema,
+    car_schema,
+    chapter_schema,
+    currrency_schema,
+    gems_schema,
+    level_schema,
+    owned_cars_schema,
+    rank_schema,
+    user_progress_schema,
+    user_schema,
+    weapons_schema
 };
