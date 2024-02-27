@@ -1,0 +1,14 @@
+{
+  "name": "racecade-model",
+  "version": "1.0.0",
+  "description": "This is a common model file for racecade backend collections",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yash Khanvilkar",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.2.0"
+  }
+}
